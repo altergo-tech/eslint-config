@@ -1,0 +1,1 @@
+# @altergo/eslint-config
