@@ -1,7 +1,7 @@
 {
   "name": "@altergo-tech/eslint-config",
   "version": "1.0.0",
-  "description": "Altergo Sslint config",
+  "description": "Eslint config",
   "main": "index.js",
   "license": "MIT",
   "author": {
