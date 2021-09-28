@@ -1,1 +1,1 @@
-# @altergo/eslint-config
+# @altergo-tech/eslint-config
