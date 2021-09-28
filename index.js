@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks'],
+  extends: [
+    'eslint:recommended',
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
+  ],
 
   parser: '@typescript-eslint/parser',
 
@@ -22,4 +28,18 @@ module.exports = {
     'node',
     'promise',
   ],
+
+  rules: {
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+   ],
+  },
+
 };
