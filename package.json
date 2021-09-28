@@ -1,6 +1,6 @@
 {
-  "name": "@altergo/eslint-config",
-  "version": "1.0.1",
+  "name": "@altergo-tech/eslint-config",
+  "version": "1.0.0",
   "description": "Altergo eslint config",
   "main": "index.js",
   "repository": "git@github.com:altergo-tech/eslint-config.git",
