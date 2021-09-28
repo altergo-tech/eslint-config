@@ -1,5 +1,25 @@
 module.exports = {
-  root: true,
+  extends: ['airbnb', 'airbnb/hooks'],
+
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+
+  parserOptions: {
+    ecmaVersion: 2021,
+    ecmaFeatures: {
+      jsx: true,
+    },
+    sourceType: 'module',
+  },
+
+  env: {
+    es2021: true,
+    node: true,
+  },
+
+  plugins: [
+    '@typescript-eslint',
+    'import',
+    'node',
+    'promise',
+  ],
 };
