@@ -1,14 +1,23 @@
 {
   "name": "@altergo-tech/eslint-config",
-  "version": "1.0.4",
-  "description": "Altergo eslint config",
+  "version": "1.0.0",
+  "description": "Altergo Sslint config",
   "main": "index.js",
-  "repository": "git@github.com:altergo-tech/eslint-config.git",
-  "author": "Altergo",
   "license": "MIT",
+  "author": {
+    "name": "Mikhail Smirnov",
+    "email": "smrnvmkhl@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altergo-tech/eslint-config"
+  },
+  "engines": {
+    "node": ">=14"
+  },
   "peerDependencies": {
-    "eslint": ">= 7",
-    "typescript": ">= 4"
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.32.0",
